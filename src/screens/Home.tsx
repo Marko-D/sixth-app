@@ -22,6 +22,7 @@ import Select from "../components/Select";
 import { colors, variables, typography } from "../styles";
 import { alert } from "../styles/colors";
 import SelectItemIcon from "../components/SelectItemIcon";
+import { Accordion, AccordionItem } from "../components/Accordion";
 
 interface HomeProps {}
 
@@ -184,6 +185,15 @@ export const Home: React.FC<HomeProps> = ({}) => {
 				{/* {!!refreshing && <Text style={styles.textRefresh}>Loading data...</Text>} */}
 
 				<Text style={styles.heading}>Home</Text>
+
+				<Accordion>
+					<AccordionItem title="Veeeeeeeeeryyyyyy looooong titleeeeeeeeeeee">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eos, eius ipsam numquam, atque vero aliquid consectetur asperiores voluptate voluptatesssitatibus dicta! Sit, tempore voluptate
+					</AccordionItem>
+					<AccordionItem title="Title 2">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eos, eius ipsam numquam, atque vero aliquid consectetur asperiores voluptate voluptatesssitatibus dicta! Sit, tempore voluptate Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eos, eius ipsam numquamconsectetur adipisicing elit. Aperiam eos, eius ipsam numquam, atque vero aliquid consectetur asperiores voluptate voluptatesssitatibus dictaLorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eos, eius ipsam numquam, atque vero aliquid consectetur asperiores voluptate voluptatesssitatibus dicta! Sit, tempore voluptate Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eos, eius ipsam numquamconsectetur adipisicing elit. Aperiam eos, eius ipsam numquam, atque vero aliquid consectetur asperiores voluptate voluptatesssitatibus dicta! Sit, tempore voluptate Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eos, eius ipsam numquam, atque vero aliquid consectetur asperiores voluptate voluptatesssitatibus dicta! Sit, tempore , atque vero aliquid consectetur asperiores voluptate voluptatesssitatibus! Sit, tempore voluptate Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eos, eius ipsam numquam, atque vero aliquid consectetur asperiores voluptate voluptatesssitatibus dicta! Sit, tempore , atque vero aliquid consectetur asperiores voluptate voluptatesssitatibus dicta! Sit, tempore voluptate.
+					</AccordionItem>
+				</Accordion>
 				<Card
 					title="Title"
 					subTitle="Subtitle"
